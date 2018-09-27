@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+  font-family: "calibri";
+}
+
+.ParteSuperior{
+    color: #e9ecef;
+    background-color: #5A6978;
+    height: 50px;
+}
+
+.ParteLogo:hover{
+    color:  white;
+    height: 50px;
+    transition: color .20s ease-in-out,background-color .20s ease-in-out,border-color .20s ease-in-out,box-shadow .20s ease-in-out;
+    cursor: pointer;
+}
+
+.ParteLogo{
+    border: solid;
+    border-width: 0px 2px 0px 0px;
+    font-size: 33px;
+    border-color: transparent #969FAA transparent transparent;
+}
+
+.ParteIzquierda{
+    background-color: #e9ecef;
+    height : 768px;
+    border: solid;
+    border-width: 0px 2px 0px 0px;
+    border-color: transparent #969FAA transparent transparent;
+}
+
+.PartePrincipal{
+    background-color: #e9ecef;
+    height : 768px;
+}
+.centrar {
+    padding-top: 6px;
+}
+
+.btn-entrar {
+    color : #e9ecef;
+    border: solid;
+    border-color: #e9ecef;
+    background-color: #5A6978;
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    font-size: 18px;
+    border-width: 1px;
+}
+
+.btn-salir {
+    color : #e9ecef;
+    border: solid;
+    border-color: #e9ecef;
+    background-color: #5A6978;
+    border-radius: 5px;
+    height: 38px;
+    width: 100%;
+    font-size: 18px;
+    border-width: 1px;
+}
+
+.btn-salir:hover {
+    color : #5A6978;
+    border: solid;
+    border-color: #e9ecef;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    height: 38px;
+    width: 100%;
+    font-size: 18px;
+    border-width: 1px;
+    transition: color .20s ease-in-out,background-color .20s ease-in-out,border-color .20s ease-in-out,box-shadow .20s ease-in-out;
+}
+
+.btn-entrar:hover {
+    color : #5A6978;
+    border: solid;
+    border-color: #e9ecef;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    font-size: 18px;
+    border-width: 1px;
+    transition: color .20s ease-in-out,background-color .20s ease-in-out,border-color .20s ease-in-out,box-shadow .20s ease-in-out;
+}
